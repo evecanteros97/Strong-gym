@@ -139,7 +139,7 @@ nav .icon-burger .line {
     padding-left: 1%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     nav {
         height: 60px;
     }
@@ -270,6 +270,7 @@ nav .icon-burger .line {
 .grid-item:nth-child(12) {
     grid-row: 2 span;
 }
+
 
 /* estilo aranceles */
 .card {
