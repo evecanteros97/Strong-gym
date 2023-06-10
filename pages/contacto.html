@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Gym</title>
+    <link rel="shortcut icon" href="../Imagenes/favicon-2.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header><!-- este es el header -->
+        <nav> <!-- menu de navegacion -->
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo">Strong Gym <br> Centro Fitness</div>
+            <ul class="links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html#actividades">Actividades</a></li>
+                <li><a href="./aranceles.html">Aranceles</a></li>
+                <li><a href="./horarios.html">Horarios</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <form action="" method="post" enctype="text/plain" class="form"> <!-- esto es un formulario -->
+                <h3>Consultas</h3>
+                <p> <strong> El momento de cambiar tu estilo de vida es ahora,dejanos tu consulta y en breve nos
+                        pondremos en contacto. </strong></p>
+                <label>Nombre</label>
+                <input type="text" name="nombre" placeholder="escriba su nombre" class="box">
+                <label>Tefefono</label>
+                <input type="tel" name="telefono" placeholder="escriba su numero" class="box">
+                <label>Email </label>
+                <input type="email" name="email" placeholder="escriba su email" class="box">
+                <label>Asunto</label>
+                <input type="text" name="asunto" placeholder="asunto" class="box">
+                <label>Mensaje</label>
+                <textarea class="box" name="mensaje" rows="3"></textarea>
+                <input type="submit" value="Enviar mensaje" class="bottom">
+            </form>
+            <div class="container-info">
+                <h3>Info de contacto</h3>
+                <ul>
+                    <li><i class="fa fa fa fa-whatsapp "></i>+541134567890</li>
+                    <li><i class="fa fa fa-at">Canterosevelin@gmail.com</i></li>
+                    <li><i class="fa fa fa-map-marker">Hipolito Yrigoyen <br> Lanus este, Buenos Aires</i> </li>
+                    <li><i class="fa fa fa-clock-o">Lunes a Viernes 07:30 - 22:00 Hs <br> Sabados 08:00 - 20:00 Hs</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="section-maps">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.875283856987!2d-58.393949925140404!3d-34.70832546302872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd231ebcc603%3A0xc8ca03c8d4f3dcea!2sAv.%20Hip%C3%B3lito%20Yrigoyen%204600%2C%20B1824ABO%20Gran%20Buenos%20Aires%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684014241540!5m2!1ses!2sar"></iframe>
+    </div>
+    <footer class="footer">2023 Strong Gym &#169 Todos los derechos reservados <!-- este es el footer -->
+        <a href="https://www.instagram.com/"><img src="../assets/Imagenes/instagram.png" alt="instagram"
+                class="footer__img"></a>
+        <a href="https://m.facebook.com/?locale=es_ES&_rdr"><img src="../assets/Imagenes/facebook.png" alt="facebook"
+                class="footer__img"> </a>
+    </footer>
+</body>
+
+</html>
