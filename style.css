@@ -360,6 +360,9 @@ h3 {
         padding: 10px;
         flex-direction: column;
     }
+    .container p{
+        display: none;
+    }
 
     .container-info {
         margin-left: 0;
