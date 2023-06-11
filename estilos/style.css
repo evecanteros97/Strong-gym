@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    background-color:#808080;
     background-size: 100%;
 }
 
@@ -88,14 +88,27 @@ nav .icon-burger .line {
     transition: all .3s ease-in-out;
 }
 
-.section__title2 {
-    font-size: 40px;
+.title {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #808080;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    height: 200px;
+}
+
+.title-2 {
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    color:#fff ;
 }
 
 .articulo {
-    background-color: lightblue;
+    background-color: #add8e6;
     width: 100%;
     margin: auto;
     height: auto;
@@ -111,9 +124,10 @@ nav .icon-burger .line {
     float: left;
 }
 
-.section__title3 {
+.title-3 {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
 }
 
 .parrafo {
@@ -122,13 +136,13 @@ nav .icon-burger .line {
 }
 
 .footer {
-    background: lightseagreen;
+    background: #20b2aa;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     width: 100%;
     padding: 5px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #000;
     margin-top: 5px;
 
 }
@@ -139,7 +153,7 @@ nav .icon-burger .line {
     padding-left: 1%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     nav {
         height: 60px;
     }
@@ -193,10 +207,13 @@ nav .icon-burger .line {
         opacity: 0;
     }
 
-    .section__title2 {
+    .title{
         font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
+    }
+    .title-2{
+        font-size: 30px;
     }
 
     .articulo {
@@ -214,12 +231,12 @@ nav .icon-burger .line {
         float: left;
     }
 
-    .section__title3 {
-        font-size: 15px;
+    .title-3 {
+        font-size: 30px;
     }
 
     .parrafo {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .footer {
@@ -227,14 +244,19 @@ nav .icon-burger .line {
         width: 100%;
         padding: 5px;
         text-align: center;
-        border: 1px solid black;
+        border: 1px solid #000;
         margin-top: 5px;
     }
 
     .footer__img {
-        width: 17px;
+        width: 35px;
         border-radius: 10px;
         padding-left: 1%;
+    }
+
+    .title {
+        font-size: 35px;
+        height:auto;
     }
 }
 
@@ -245,14 +267,15 @@ nav .icon-burger .line {
     grid-gap: 5px;
     width: 80%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 .grid-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .grid-container img:hover {
@@ -276,6 +299,8 @@ nav .icon-burger .line {
 .card {
     margin-top: 100px;
     text-align: center;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 .card-text {
@@ -286,27 +311,19 @@ nav .icon-burger .line {
 
 /* estilo contacto */
 .container {
-    background-color: #80808080;
+  border: 1px solid;
     max-width: 900px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 0%;
+    padding-top: 0%;
     padding: 20px;
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-h3 {
-    font-size: 30px;
-    margin-top: 0;
-    color: #20b2aa;
-    margin-bottom: 10px;
-}
-.container p{
+.container p {
     margin-bottom: 10px;
     text-align: center;
 }
-
-
 .box {
     width: 100%;
     padding: 10px;
@@ -361,7 +378,8 @@ h3 {
         padding: 10px;
         flex-direction: column;
     }
-    .container p{
+
+    .container p {
         display: none;
     }
 
@@ -376,7 +394,7 @@ h3 {
     }
 }
 
-    /* estilos horarios */
-    #modifayer {
-        margin-top: 100px;
-    }
+/* estilos horarios */
+#modifayer {
+    margin-top: 0px;
+}
