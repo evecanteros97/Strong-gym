@@ -52,7 +52,7 @@ nav .links a {
   text-decoration: none;
 }
 nav .links a:hover {
-  color: #fff;
+  color: #000;
 }
 nav .icon-burger {
   display: none;
