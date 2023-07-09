@@ -1,11 +1,14 @@
 @mixin title-colors{
     color: #000;
-    text-shadow: 2px 2px 4px #fff;
-    font-size: 60px;
+    font-size: 50px;
+    font-family:$font-family_2;
 }
 
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     border-radius: $radius;
+}
+@mixin bg-color($color){
+    background-color: $color;
 }

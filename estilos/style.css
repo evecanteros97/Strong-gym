@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #808080;
+  background-color: #fff;
   background-size: 100%;
 }
 
@@ -18,14 +18,12 @@ nav {
   font-family: "Montserrat", sans-serif;
   padding: 0 5%;
   height: 90px;
-  background-color: #20b2aa;
+  background-color: #3498DB;
 }
 nav .logo {
-  color: #000;
-  text-shadow: 2px 2px 4px #fff;
-  font-size: 60px;
+  color: #fff;
   float: left;
-  width: 40%;
+  width: 200px; /* operaciones */
   height: 100%;
   display: flex;
   align-items: center;
@@ -50,11 +48,11 @@ nav .links a {
   padding: 1em;
   font-size: 20px;
   font-weight: bold;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 nav .links a:hover {
-  color: #808080;
+  color: #fff;
 }
 nav .icon-burger {
   display: none;
@@ -99,29 +97,38 @@ nav .icon-burger .line {
   height: 600px;
 }
 
+.title-banner {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+}
+
 .title-1 {
   color: #000;
-  text-shadow: 2px 2px 4px #fff;
-  font-size: 60px;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-top: 100px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  background-color: #808080;
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   height: 200px;
 }
 
 .section__title-2 {
   color: #000;
-  text-shadow: 2px 2px 4px #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
 }
 
 .section__article {
-  background-color: #808080;
+  background-color: #fff;
   width: 100%;
   margin: auto;
   height: auto;
@@ -130,7 +137,7 @@ nav .icon-burger .line {
 }
 .section__article img {
   width: 400px;
-  height: 270px;
+  height: 280px;
   margin: 5px;
   float: left;
   -webkit-border-radius: 12px;
@@ -140,7 +147,7 @@ nav .icon-burger .line {
 
 .section__title-3 {
   font-size: 35px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #000;
 }
 
@@ -151,7 +158,8 @@ nav .icon-burger .line {
 }
 
 .footer {
-  background: #20b2aa;
+  background-color: #3498DB;
+  color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   width: 100%;
@@ -244,18 +252,25 @@ nav .icon-burger .line {
   margin-bottom: 10px;
 }
 
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+textarea:focus {
+  border-color: #20b2aa;
+}
+
 .bottom {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #20b2aa;
+  background-color: #3498DB;
   color: #000;
   border: none;
   text-align: center;
   cursor: pointer;
 }
 .bottom:hover {
-  background-color: #808080;
+  background-color: #fff;
 }
 
 .contact-info__title-2 {
@@ -334,6 +349,9 @@ nav .icon-burger .line {
   .d-block {
     width: 100%;
     height: 300px;
+  }
+  .title-banner {
+    font-size: 40px;
   }
   .title-1 {
     font-size: 30px;
@@ -482,8 +500,12 @@ nav .icon-burger .line {
   nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
   }
-  #carouselExampleCaptions {
-    display: none;
+  .d-block {
+    width: 100%;
+    height: 230px;
+  }
+  .title-banner {
+    font-size: 35px;
   }
   .title-1 {
     font-size: 30px;
