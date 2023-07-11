@@ -9,7 +9,12 @@ body {
   background-size: 100%;
 }
 
+.body-index {
+  max-width: 1400px;
+}
+
 nav {
+  max-width: 1400px;
   position: fixed;
   z-index: 10;
   left: 0;

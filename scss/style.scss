@@ -11,8 +11,12 @@ body {
 	@include bg-color($color-2);
 	background-size: 100%;
 }
+.body-index{
+	max-width: 1400px;
+}
 
 nav {
+	max-width: 1400px;
 	position: fixed;
 	z-index: 10;
 	left: 0;
@@ -127,6 +131,7 @@ nav .icon-burger .line {
 	text-align: center;
 	height: 200px;
 }
+
 
 .section__title-2 {
 	@include title-colors;
