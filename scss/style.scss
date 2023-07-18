@@ -11,12 +11,9 @@ body {
 	@include bg-color($color-2);
 	background-size: 100%;
 }
-.body-index{
-	max-width: 1400px;
-}
 
 nav {
-	max-width: 1400px;
+	max-width: 100%;
 	position: fixed;
 	z-index: 10;
 	left: 0;
@@ -147,9 +144,9 @@ nav .icon-burger .line {
 	border: 1px solid #000;
 
 	img {
-		width: 400px;;
-		height: 280px;
-		margin: 5px;
+		width: 500px;;
+		height: 300px;
+		margin: 3px;
 		float: left;
 		@include border-radius (12px)
 	}
@@ -163,7 +160,7 @@ nav .icon-burger .line {
 
 .section__paragraph {
 	color: $color-1;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: $font-family_3;
 }
 
