@@ -27,7 +27,7 @@ nav {
 	.logo {
 		color: $color-2;
 		float: left;
-		width: ($ancho/2)-50; /* operaciones */
+		width: 200px;/* operaciones */
 		height: 100%;
 		display: flex;
 		align-items: center;
@@ -176,7 +176,7 @@ nav .icon-burger .line {
 	margin-top: 5px;
 
 	.footer__img {
-		width:($ancho/5)-60;
+		width:40px;
 		padding-left: 1%;
 		@include border-radius (12px);
 	}
@@ -340,8 +340,8 @@ textarea:focus {
 		width: auto;
 		height: auto;
 		flex-direction: column;
-		justify-content: space-between;
-		background-color: rgba(0, 0, 0, .8);
+		justify-content: space-evenly;
+		background-color: rgba(9, 36, 126, 0.89);
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
@@ -530,7 +530,7 @@ textarea:focus {
 		height: auto;
 		flex-direction: column;
 		justify-content: space-between;
-		background-color: rgba(0, 0, 0, .8);
+		background-color: rgba(119, 82, 82, 0.8);
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;

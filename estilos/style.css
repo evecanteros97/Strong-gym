@@ -322,8 +322,8 @@ textarea:focus {
     width: auto;
     height: auto;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-evenly;
+    background-color: rgba(9, 36, 126, 0.89);
     overflow: hidden;
     box-sizing: border-box;
     transition: all 0.5s ease-in-out;
@@ -477,7 +477,7 @@ textarea:focus {
     height: auto;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(119, 82, 82, 0.8);
     overflow: hidden;
     box-sizing: border-box;
     transition: all 0.5s ease-in-out;
